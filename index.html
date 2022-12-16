@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:wght@500;700&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/blade-runner-movie-font" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e04fba6142.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/back-button.css">
     <link rel="stylesheet" href="css/background.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/logo.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/filme.css">
+    <link rel="stylesheet" href="css/personagens.css">
+    <link rel="stylesheet" href="css/distopia.css">
 
     <title>Blade Runner</title>
 </head>
+
 <body>
-    
-        
+
+
     <header>
-        
+
         <nav>
             <div class="menu_mobile-tablet">
                 <a href="#"><i class="fas fa-bars"></i></a>
-                
+
             </div>
+            <div class="menu-box"></div>
             <ul class="menu">
                 <li>
                     <a href="#home">Início</a>
@@ -38,69 +49,385 @@
                     <a href="#personagens">Personagens</a>
                 </li>
                 <li>
-                    <a href="#simbologia">Simbologia</a>
+                    <a href="#distopia">Distopia</a>
                 </li>
-                
+
             </ul>
+
         </nav>
         <div class="logo">
-            <img src="img/logo.png" alt="coelho como logo">
+            <img src="/img/logo-wallace.png" alt="logo da empresa ficticia Wallace">
         </div>
-        
     </header>
     <section class="home" id="home">
         <div class="home-box">
 
             <video autoplay muted loop>
-                <source src="/video/ec4c2a4159008786494cade4aab0971b (video-converter.com).mp4" type="video/mp4">
+                <source src="/video/joi2.mp4" type="video/mp4">
             </video>
 
             <div class="titulo-group-home">
                 <h1 class="home--title">Blade Runner</h1>
+                <span class="home--subtitle">2049</span>
             </div>
-        
+
         </div>
     </section>
+
     <main>
-        
+
 
         <a href="#" class="back" title="voltar">
-            <i class="fas fa-arrow-to-top"></i>
+            <i class="fa-solid fa-chevron-up"></i>
         </a>
 
-        
+
 
         <section class="filme" id="filme">
-            <div class="titulo-group-filme">
-                
-                <h1 class="filme--title">Sobre o filme</h1>
-                <p class="filme--text">Em Blade Runner 2049, após os problemas enfrentados com os Nexus 8, uma nova espécie de replicantes é desenvolvida, de forma que seja mais obediente aos humanos. Um deles é K (Ryan Gosling), um blade runner que caça replicantes foragidos para a polícia de Los Angeles. Após encontrar Sapper Morton (Dave Bautista), K descobre um fascinante segredo: a replicante Rachel (Sean Young) teve um filho, mantido em sigilo até então. A possibilidade de que replicantes se reproduzam pode desencadear uma guerra deles com os humanos, o que faz com que a tenente Joshi (Robin Wright), chefe de K, o envie para encontrar e eliminar a criança.</p>
+            <div class="div-section">
+                <div class="text-group-filme">
+                    <h1 class="filme--title">Sobre o filme</h1>
+
+                    <p class="filme--text">Em Blade Runner 2049, após os problemas enfrentados com os Nexus 8, uma nova
+                        espécie
+                        de replicantes é desenvolvida, de forma que seja mais obediente aos humanos. Um deles é K (Ryan
+                        Gosling), um blade runner que caça replicantes foragidos para a polícia de Los Angeles. Após
+                        encontrar
+                        Sapper Morton (Dave Bautista), K descobre um fascinante segredo: a replicante Rachel (Sean
+                        Young)
+                        teve
+                        um filho, mantido em sigilo até então. A possibilidade de que replicantes se reproduzam pode
+                        desencadear
+                        uma guerra deles com os humanos, o que faz com que a tenente Joshi (Robin Wright), chefe de K, o
+                        envie
+                        para encontrar e eliminar a criança.</p>
+
+                </div>
+
+                <div class="foto-painel">
+                    <img src="img/foto-filme.png" alt="blade runners - K e Rick Deckard"
+                        class="image-filme">
+                </div>
+
             </div>
+
+            </div>
+
 
         </section>
 
         <section class="personagens" id="personagens">
-            <div class="titulo-group-personagens">
-                <span class="personagens--text">the</span>
-                <h1 class="personagens--title">Matrix</h1>
-            </div>        
-                
+            <nav>
+
+                <ul class="menu-personagens">
+                    <li>
+                        <a href="#k">
+                            <img class="icon-k" src="/img/K-icon.png" alt="K" id="icon-k">
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="#rick">
+                            <img class="icon-rick" src="/img/rick-icon.png" alt="rick" id="icon-rick">
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="#joi">
+                            <img class="icon-joi" src="/img/joi-icon.png" alt="joi" id="icon-joi">
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="#mariette">
+                            <img class="icon-mariette" src="/img/mariette-icon.png" alt="mariette" id="icon-mariette">
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#luv">
+                            <img class="icon-luv" src="/img/luv-icon.png" alt="luv" id="icon-luv">
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="#ana">
+                            <img class="icon-ana" src="/img/ana-icon.png" alt="ana" id="icon-ana">
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="#joshi">
+                            <img class="icon-joshi" src="/img/joshi-icon.png" alt="joshi" id="icon-joshi">
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#freysa">
+                            <img class="icon-freysa" src="/img/freysa-icon.png" alt="freysa" id="icon-freysa">
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="#wallace"></a>
+                        <img class="icon-niander" src="/img/wallace-icon.png" alt="niander-wallace"
+                            id="icon-niander">
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <section class="rick container" id="rick">
+
+                <section class="perfil" >
+                    <div class="video-perfil" >
+                        <video autoplay muted loop>
+                            <source src="/video/rick-deckard.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+
+                    <div class="description">
+                        <div class="titulo">
+                            <h2 class="nome-personagem">Rick Deckard</h2>
+                            <h3 class="nome-ator">(Harrison Ford)</h3>
+                        </div>
+                        <p class="bio-personagem">Deckard era um caçador de androides. Sua função era de aposentar
+                            androides
+                            orgânicos, conhecidos como replicantes, que estavam na Terra ilegalmente. Porém em sua época
+                            como Blade Runner(caçador de androides) se apaixona por Rachel, uma replicante.</p>
+                    </div>
+                </section>
+
+
+            </section>
+
+            <section class="k container" id="k">
+
+                <section class="perfil">
+                    <div class="video-perfil">
+                        <video autoplay muted loop>
+                            <source src="/video/blade-runner-k.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    </div>
+                    <div class="description">
+                        <div class="titulo">
+                            <h2 class="nome-personagem">K</h2>
+                            <h3 class="nome-ator">(Ryan Gosling)</h3>
+                        </div>
+                        <p class="bio-personagem">Um novo modelo criado para obedecer ordens, trabalha como blade runner
+                            para o Departamento de Polícia de Los Angeles, caçando e "aposentando" (matando) antigos
+                            modelos
+                            (rebeldes hostis a ordens) que ainda estão à solta.</p>
+                </section>
+
+            </section>
+
+            <section class="joi container" id="joi">
+
+                <section class="perfil">
+                    <div class="video-perfil">
+                        <video autoplay muted loop>
+                            <source src="/video/joi-perfil.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="description">
+                        <div class="titulo">
+                            <h2 class="nome-personagem">Joi</h2>
+                            <h3 class="nome-ator">(Ana de Armas)</h3>
+                        </div>
+                        <p class="bio-personagem">Joi era uma marca de DiJi projetada pela Wallace Corporation, uma
+                            espécie
+                            de holograma. Um desses
+                            produtos, Joi, era de propriedade do Blade Runner K, funcionando como sua parceira
+                            doméstica.
+                        </p>
+                    </div>
+
+                </section>
+            </section>
+
+            <section class="mariette container" id="mariette">
+
+                <section class="perfil">
+                    <div class="video-perfil">
+                        <video autoplay muted loop>
+                            <source src="/video/mariette.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+
+                    <div class="description">
+                        <div class="titulo">
+                            <h2 class="nome-personagem">Mariette</h2>
+                            <h3 class="nome-ator">(Mackenzie Davis)</h3>
+                        </div>
+                        <p class="bio-personagem">Mariette era uma replicante Nexus-8 que trabalhava como doxie
+                            (replicante
+                            treinada para usar sexo para cumprir seus deveres). Ela também
+                            era membro do grupo de liberdade replicante liderado por Freysa Sadeghpour .</p>
+                    </div>
+                </section>
+            </section>
+
+            <section class="luv container" id="luv">
+
+                <section class="perfil">
+                    <div class="video-perfil">
+                        <video autoplay muted loop>
+                            <source src="/video/luv.mp4" type="video/mp4">
+                        </video>
+                        <span>"O melhor anjo de todos, Não é você Luv?"</span>
+                    </div>
+                    <div class="description">
+                        <div class="titulo">
+                            <h2 class="nome-personagem">Luv</h2>
+                            <h3 class="nome-ator">(Sylvia Hoeks)</h3>
+                        </div>
+                        <p class="bio-personagem">Luv era uma replicante modelo Nexus-9 que foi inicialmente presenteada
+                            ao
+                            Departamento de Polícia de Los Angeles por Niander Wallace para que ela pudesse servir como
+                            uma
+                            Blade Runner e definir o padrão para o desempenho do Nexus-9. Em 2049, ela começou a
+                            trabalhar
+                            como assistente pessoal de Wallace. Luv admirava Wallace e sua
+                            visão para o futuro dos replicantes.</p>
+                    </div>
+
+                </section>
+            </section>
+
+            <section class="ana container" id="ana">
+
+                <section class="perfil">
+                    <div class="video-perfil">
+                        <video autoplay muted loop>
+                            <source src="/video/ana-stelline.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="description">
+                        <div class="titulo">
+                            <h2 class="nome-personagem">Dr.Ana Stelline</h2>
+                            <h3 class="nome-ator">(Carla Juri)</h3>
+                        </div>
+                        <p class="bio-personagem">Stelline nasceu em 10 de junho de 2021, filha do ex- Blade Runner Rick
+                            Deckard e Rachael, uma replicante Nexus-7, fazendo dela a primeira criança nascida
+                            replicante.
+                            No entanto, Rachael morreu como resultado de uma cesariana de emergência de Stelline.</p>
+                    </div>
+                </section>
+            </section>
+
+            <section class="joshi container" id="joshi">
+
+                <section class="perfil">
+                    <div class="video-perfil">
+                        <video autoplay muted loop>
+                            <source src="/video/blade-runner-k.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="description">
+                        <div class="titulo">
+                            <h2 class="nome-personagem">Joshi</h2>
+                            <h3 class="nome-ator">(Robin Wright)</h3>
+                        </div>
+                        <p class="bio-personagem">O tenente Joshi era membro da Divisão de Aposentadoria do Departamento
+                            de
+                            Polícia de Los Angeles e superior do oficial K , um Blade Runner.</p>
+                    </div>
+
+                </section>
+            </section>
+
+            <section class="freysa container" id="freysa">
+
+                <section class="perfil">
+                    <div class="video-perfil">
+                        <video autoplay muted loop>
+                            <source src="/video/blade-runner-k.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="description">
+                        <div class="titulo">
+                            <h2 class="nome-personagem">Freysa</h2>
+                            <h3 class="nome-ator">(Hiam Abbass)</h3>
+                        </div>
+                        <p class="bio-personagem">Freysa Sadeghpour era uma engenheira de combate replicante Nexus-8 e
+                            líder
+                            de um grupo de liberdade replicante. Freysa também se tornou a líder de um crescente
+                            movimento
+                            de resistência replicante em algum dos replicantes.</p>
+                    </div>
+                </section>
+            </section>
+
+            <section class="wallace container" id="wallace">
+
+                <section class="perfil">
+                    <div class="video-perfil">
+                        <video autoplay muted loop>
+                            <source src="/video/blade-runner-k.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="description">
+                        <div class="titulo">
+                            <h2 class="nome-personagem">Niander Wallace</h2>
+                            <h3 class="nome-ator">(Jared Letto)</h3>
+                        </div>
+                        <p class="bio-personagem">Niander Wallace Jr., o grande antagonista da trama, foi um cientista
+                            fabricante de replicantes, tecnólogo e CEO da empresa de fabricação de replicantes, Wallace
+                            Corporation.</p>
+                    </div>
+                </section>
+            </section>
+
         </section>
-        <section class="simbologia" id="simbologia">
-            <div class="titulo-group-personagens">
-                <span class="personagens--text">the</span>
-                <h1 class="personagens--title">Matrix</h1>
-            </div>        
-                
+        <section class="distopia" id="distopia">
+            <div class="text-group-distopia">
+                <h1 class="distopia--title">Distopia</h1>
+                <p class="distopia--text">No enredo, o detetive Rick Deckard tem como profissão ser um caçador de
+                    androides, ou seja, ele é aquilo que, no Brasil, chamamos de capitão do mato. Já os androides são
+                    seres de aparência humana, produzidos por uma empresa chamada Tyrell Corporation, que os vende como
+                    escravos para exploração de colônias em outros planetas. As versões mais novas dos replicantes, como
+                    são chamados, são cada vez mais sofisticadas e se rebelam contra seus opressores, tornando-se
+                    dissidentes.
+                    Em contraste, as cenas mais memoráveis do filme são justamente o assassinato da replicante Zhora
+                    (Joanna Cassidy) e a morte de Roy Batty (Rutger Hauer), apesar do subtexto cristão.
+                    Em Alphaville, um detetive tem a função de destruir um computador que escraviza seres humanos,
+                    tornando-os insensíveis e incapazes de entender contradições devido ao controle rígido da linguagem.
+                    Los Angeles como o principal cenário. Isso ajuda a explicar a incrível cinematografia desta Los
+                    Angeles contraditoriamente chuvosa e noturna de Blade Runner, que mistura objetos de épocas
+                    diferentes em meio a uma iluminação de sombras e o cigarro na mão da replicante e femme fatale
+                    Rachel , a representação mais icônica desse gênero. Tal como os replicantes, a cidade capitalista
+                    também é a imagem de seus criadores que, no filme, são representados pelo burguês Eldon Tyrell . Se
+                    em Alphaville, nos anos 1960, temos seres humanos controlados e se tornando replicantes, em Blade
+                    Runner, os seres humanos já perderam toda a sua humanidade, que tentam encontrar de maneira
+                    desesperada.
+                    Uma das principais características da pós-modernidade é justamente o encolhimento do tempo a um
+                    presente contínuo, que apaga qualquer referência ao passado e à História propriamente dita. No filme
+                    de 1982, a tragédia dos replicantes dissidentes revela a amarga alienação à qual estamos expostos
+                    como força de trabalho no capitalismo que, cada vez mais, avança sobre nossa própria subjetividade,
+                    moldando nossa humanidade à sua semelhança. Blade Runner são representações metafóricas que ajudam
+                    nessa tarefa.</p>
+            </div>
+
         </section>
-        <section class="ultima-chance" id="ultima-chance">
-            <div class="titulo-group-personagens">
-                <span class="personagens--text">the</span>
-                <h1 class="personagens--title">Matrix</h1>
-            </div>        
-                
-        </section>
+
     </main>
+    <footer>
+        <span class="footer-text">Copyright © 2022 | Daniela Lino</span>
+    </footer>
+
+    <script src="lo.js"></script>
 
 </body>
+
 </html>
